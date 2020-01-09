@@ -30,18 +30,18 @@ hr {
 }
 
 /* Sombra utilizada en la cabecera y en los subtítulos de la página */
-.sombraD {
+/* .sombraD {
   box-shadow: 3px 3px 4px #b1b3a2;
   -moz-box-shadow: 3px 3px 4px #b1b3a2;
   -webkit-box-shadow: 3px 3px 4px #b1b3a2;
-}
+} */
 
 /* Contenedor general para todo el 'body'
   por si queremos mover o modificar la página completa */
-#todo {
+/* #todo {
   margin: 0px auto;
   float: left;
-}
+} */
 
 /* Contenedor para el 'membrete' con su logo y el menú */
 #Header {
@@ -195,7 +195,7 @@ hr {
   'cuerpo' con la etiqueta '<p>'*/
 #secondMenu * p {
   text-align: justify;
-  margin: 0px 18px;
+  margin: 10px 0px;
 }
 
 /* Ponemos la decoración que se pide sobre el 'cuerpo' y el 'pie', consistente
@@ -256,18 +256,18 @@ hr {
 
 /* Definimos la apariencia de los títulos para las listas de definición de
   la columna de la izquierda */
-#izquierda * dt {
+/* #izquierda * dt {
   margin-left: 20px;
   font: 0.9em sans-serif, Arial, Helvetica;
   font-weight: bold;
-}
+} */
 
 /* Definimos la apariencia de los datos para las listas de definición de
   la columna de la izquierda */
-#izquierda * dd {
+/* #izquierda * dd {
   margin-left: 20px;
   padding-bottom: 15px;
-}
+} */
 
 /* Contenedor para los distintos apartados (título de los temas).
   Redondeo las esquinas superiores, defino la fuente y utilizo un
@@ -275,20 +275,16 @@ hr {
   También pongo un margen inferior para separar el texto siguiente
   de este contenedor.
 */
-.subtitu {
-  padding: 10px 20px;
+.tittleBox {
   margin-bottom: 10px;
+  padding: 10px 20px;
   background-color: #3c74e6;
   color: white;
-  font: 0.9em/1.4 Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
 }
 
 /* Contenedor para el formulario, que lo separa del borde izquierdo*/
-.separa {
+.usuariosContent {
   padding-left: 20px;
 }
 
@@ -302,6 +298,7 @@ hr {
   position: relative;
   left: 0px;
   top: 0px;
+  margin-bottom: 100px;
 }
 
 /* Los listados tendrán un tipo de letra normal y de color negro */
@@ -355,10 +352,10 @@ hr {
 }
 
 /* Definimos cómo queremos que aparezcan los enlaces en la columna de la izquierda */
-#izquierda * a {
+/* #izquierda * a {
   text-decoration: none;
   font: 0.8em sans-serif, Arial, Helvetica;
-}
+} */
 
 /* Contenedor para la parte inferior de la página */
 #pie {
@@ -377,4 +374,8 @@ hr {
   float: left;
   width: 100%;
   text-align: center;
+}
+
+#access {
+  margin-top: 10px;
 }
